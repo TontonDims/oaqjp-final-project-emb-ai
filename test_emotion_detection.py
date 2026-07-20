@@ -16,11 +16,11 @@ class TestEmotionDetector(unittest.TestCase):
         result_3 = emotion_detector('I feel disgusted just hearing about this')  
 
         # Cas de test pour emotion sadness
-        self.assertEqual(result_4['label'], 'sadness')
+        self.assertEqual(result_4['emotion'], 'sadness')
         result_4 = emotion_detector('I am so sad about this')  
 
         # Cas de test pour emotion fear
-        self.assertEqual(result_5['label'], 'fear')  
+        self.assertEqual(result_5['lemotion'], 'fear')  
         result_5 = emotion_detector('I am really afraid that this will happen') 
 
     unittest.main() 
