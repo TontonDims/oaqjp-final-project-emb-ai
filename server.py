@@ -30,9 +30,12 @@ def emotion_detector():
 
 @app.route("/")
 def render_index_page():
+<<<<<<< HEAD
     ''' This function initiates the rendering of the main application
         page over the Flask channel
     '''
+=======
+>>>>>>> refs/remotes/origin/main
     return render_template('index.html')
 
 
